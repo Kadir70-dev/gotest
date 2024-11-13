@@ -10,10 +10,7 @@ func divide(a, b float64) (float64, error) {
 }
 
 func main() {
-	_, err := divide(1, 0)
-	if err != nil {
-		fmt.Println(err)
-		return
-	}
-	fmt.Println("Error handling in golang")
+	fmt.Println("Error handling")
+	ans, _:= divide(5, 0)
+	fmt.Println(ans)
 }
