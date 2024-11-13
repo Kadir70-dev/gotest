@@ -11,6 +11,6 @@ func divide(a, b float64) (float64, error) {
 
 func main() {
 	fmt.Println("Error handling")
-	ans, _:= divide(5, 0)
+	ans, _ := divide(10, 2)
 	fmt.Println(ans)
 }
