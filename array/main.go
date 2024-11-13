@@ -15,4 +15,5 @@ func main() {
 	fmt.Println(names)
 	var numbers= [5]int{1, 2, 3, 4, 5}
 	fmt.Println(numbers)
+	fmt.Println(len(numbers))
 }
