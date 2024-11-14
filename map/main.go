@@ -9,6 +9,6 @@ func main() {
 	studentGrades["Mukadam"] = 90
 	studentGrades["raza"] = 80
 	fmt.Println(studentGrades)
-	fmt.Println(studentGrades["Kadir"])
+	fmt.Println(studentGrades["raza"])
 
 }
