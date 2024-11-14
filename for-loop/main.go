@@ -24,4 +24,9 @@ func main() {
 		fmt.Println(index, value)
 	}
 
+	data := "Kadir"
+	for index, char := range data {
+		fmt.Println(index, char)
+	}
+
 }
